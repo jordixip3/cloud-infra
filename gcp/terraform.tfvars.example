@@ -1,0 +1,8 @@
+gcp_project_id        = "tu-proyecto-gcp-id" # Introduce aquí el ID de tu proyecto en GCP
+gcp_region            = "europe-west1"      # Bélgica
+gcp_zone              = "europe-west1-b"
+environment           = "poc"
+node_count            = 10
+machine_type          = "e2-micro"
+subnet_cidr           = "10.10.1.0/24"
+allowed_source_ranges = ["0.0.0.0/0"]

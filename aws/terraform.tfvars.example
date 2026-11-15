@@ -1,0 +1,7 @@
+aws_region       = "eu-west-1"   # Cambiar a us-east-1, eu-central-1, etc. si se prefiere
+environment      = "poc"
+node_count       = 10
+instance_type    = "t3.micro"
+vpc_cidr         = "10.0.0.0/16"
+subnet_cidr      = "10.0.1.0/24"
+allowed_ssh_cidr = "0.0.0.0/0"   # Se recomienda restringir a la IP pública de tu oficina/casa

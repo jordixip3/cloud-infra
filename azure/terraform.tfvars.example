@@ -1,0 +1,8 @@
+azure_location     = "westeurope" # Países Bajos (o uksouth, eastus, etc.)
+environment        = "poc"
+node_count         = 10
+vm_size            = "Standard_B1s"
+admin_username     = "azureuser"
+vnet_cidr          = "10.20.0.0/16"
+subnet_cidr        = "10.20.1.0/24"
+allowed_ssh_source = "*"
